@@ -9,5 +9,5 @@ INTEGRANTES:
     Divino Chaves Stefa - UC24101628 - Definir dificuldade
     Joyce Miranda de Souza - UC24102351 - Histórico de operações
     Victor Kauê Lima de Taiva - UC24103357 - Geração de operadores
-    Caroline Zaiatz - UC24101689 - Ranking
-    Beatriz Medina - UC24101412 - Ranking
+    Caroline Zaiatz - UC24101689 - Função jogar e requisitos
+    Beatriz Medina - UC24101412 - Criação da main
