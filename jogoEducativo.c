@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define MAX_QUESTOES 10
+
 typedef struct {
     int dificuldade;
     int valor1; 
@@ -10,7 +12,7 @@ typedef struct {
     int resultado; 
 }Calcular;
 
-
+Calcular* operacoes[MAX_QUESTOES];
 
 //Gera um números aleatórios para escolher a operação, atribui na struct Calcular e retorna o valor aleatório.
 int operacaoAleatoria(Calcular *calcular){
@@ -42,10 +44,24 @@ void multiplicacao(Calcular *calcular){
     calcular->resultado = calcular->valor1 * calcular->valor2;
 }
 
-void historico(Calcular *calcular){
-    int operacoes[10];
-    printf("Seu Historico");
+void infoOperacao(Calcular *calcular){
+    int operador = calcular->operacao;
+
+    if(operador = 0){
+        printf("\n%d + %d = %d\n", calcular->valor1, calcular->valor2, calcular->resultado);
+    }else if(operador = 1){
+        printf("\n%d - %d = %d\n", calcular->valor1, calcular->valor2, calcular->resultado);
+    }else if(operador = 2){
+        print("\n%d * %d = %d\n", calcular->valor1, calcular->valor2, calcular->resultado);
+    }
     
+}
+
+void historico(Calcular *calcular){
+    printf("\nSeu Historico:\n");
+    for(int i = 0; i < MAX_QUESTOES; i++){
+        infoOperacao(operacoes[i]);
+    }
 }
 
 void jogar(Calcular *calcular){
