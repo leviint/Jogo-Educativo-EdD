@@ -1,0 +1,13 @@
+Link para o repositório no github:
+https://github.com/leviint/Jogo-Educativo-EdD
+
+INTEGRANTES:
+
+    Antônio Tavares de Lucena e Mello - UC24101777 - GERENTE
+    Allefy Rafael F. da Silva - UC24101130 - Assistência geral e requisitos
+    Arthur Lemos Bendini - 24101142 - Criação do README.md e assistência geral
+    Divino Chaves Stefa - UC24101628 - Definir dificuldade
+    Joyce Miranda de Souza - UC24102351 - Histórico de operações
+    Victor Kauê Lima de Taiva - UC24103357 - Geração de operadores
+    Caroline Zaiatz - UC24101689 - Ranking
+    Beatriz Medina - UC24101412 - Ranking
