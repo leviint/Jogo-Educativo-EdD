@@ -1,6 +1,6 @@
 # Jogo Educativo Matemático
 Este repositório contém um programa escrito em linguagem C que executa um jogo educacional de cálculos matemáticos.  
-O jogo é composto por um questionário de 10 questões de operações matemáticas de **soma**, **subtração** e **multiplicação**, onde o jogador será avaliado pelo seu desempenho e colocado em um ranking entre todos os participantes.  
+O jogo é composto por um questionário de 10 questões de operações matemáticas de **soma**, **subtração** e **multiplicação**, onde o jogador será avaliado pelo seu desempenho e colocado em um ranking para competir com sua própria pontuação   
 Esta atividade faz o uso dos conceitos aprendidos ao longo do semestre da disciplina de Estrutura de Dados.  
 
 ### Conceitos utilizados:
